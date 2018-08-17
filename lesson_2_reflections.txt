@@ -1,1 +1,3 @@
-sseasdeses
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- Staging area bir dizin veya depodan şöyle farklıdır: bir commit bırakmak istendiğinde şu an çalışılan alanı belirtir ve işler bittikten sonra bu staging areadaki dosyalar ve duzenlemeler icin bir commit bırakılabilmektedir.
