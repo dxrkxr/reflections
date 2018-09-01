@@ -1,3 +1,10 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 - Staging area bir dizin veya depodan şöyle farklıdır: bir commit bırakmak istendiğinde şu an çalışılan alanı belirtir ve işler bittikten sonra bu staging areadaki dosyalar ve duzenlemeler icin bir commit bırakılabilmektedir.
+
+Staging area'yı ne gibi yararlar için kullanabiliyoruz ? (staging area = kazırlık alanı)
+
+- Buna cevap olarak staging area'da soyaların bi önceki sürümlerine göre sadece "git diff" komutunu kullanarak ne gibi değişiklikler yaptıgımızı görebiliyoruz. Ayrıca istediğimi dosyayı tek tek ekleyebilip bunlara commit girebiliyoruz.(git add <files> -> git commit <files>)Ayrıca git reset --hard HEAD komutuyla da son commit'e repository'i getirebiiyoruz. ayrıca commit sonrasında da olusabilecek LF TO CRLF warningleri için commit girip kayıt yaptıktan sonra bu uyarıdan kurtulmak için kullanabiliriz bunun dışında da branchlara geçiş yapmak için git checkout <master> gibi branch isimleriyle geçişler sağlayabiliriz.  
+
+#son değişikliği vim ile kaydetmek için yapmış bulunmaktayım. 
+
