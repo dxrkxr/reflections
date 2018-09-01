@@ -6,5 +6,8 @@ Staging area'yı ne gibi yararlar için kullanabiliyoruz ? (staging area = kazı
 
 - Buna cevap olarak staging area'da soyaların bi önceki sürümlerine göre sadece "git diff" komutunu kullanarak ne gibi değişiklikler yaptıgımızı görebiliyoruz. Ayrıca istediğimi dosyayı tek tek ekleyebilip bunlara commit girebiliyoruz.(git add <files> -> git commit <files>)Ayrıca git reset --hard HEAD komutuyla da son commit'e repository'i getirebiiyoruz. ayrıca commit sonrasında da olusabilecek LF TO CRLF warningleri için commit girip kayıt yaptıktan sonra bu uyarıdan kurtulmak için kullanabiliriz bunun dışında da branchlara geçiş yapmak için git checkout <master> gibi branch isimleriyle geçişler sağlayabiliriz.  
 
-#son değişikliği vim ile kaydetmek için yapmış bulunmaktayım. 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+- Branch'ler projemizde değişiklikler yaparken bunları ayırıp farklı kollardan yürütmede oldukca başarılıdır. Bunun yanında örneğin bir oyunda farklı oyun seviyelerinde denemeler yapmak veya yeni bir özellik getirmeden önce mevcut sürüm üzerinde değişiklikleri kontrol ederken mevcut sürüme zarar vermemek adına da kullanılabilir. Kullanım şekli ise:
+Yeni bir branch için -> git branch <branch_name>
+Branchlar arası değişim için ise ->git checkout <branch_name>
