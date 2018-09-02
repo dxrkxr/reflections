@@ -15,3 +15,8 @@ Branchlar arası değişim için ise ->git checkout <branch_name>
 How do the diagrams help you visualize the branch structure?
 
 - Log kayıtlarına yani commitlere diyagramlar ile bakmak branch yapısını görselleştirirken bize commitler arasındaki kırılmaların nerede olduklarını gösterrler. Bizde bu kırılma noktalarına göre çeşitli commitler üzerinde denenmiş yeni çzellikleri veya benzeri işlemleri o commite dal olarak görebiliriz. git log --graph --oneline master coins gibi bir kod ile master branch'ı ile coins branch'ı arasındaki commitlerin nerelerde farklılaştığını görebilir buna göre daha kolay commitler arasında gezinti sağlayabiliriz. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- İlk başta merge conflict aldım fakat bu conlict'i çözmek için git beni dosyayı düzenlemeye yönlendirdi ve istediğim kısımları bırakarak sonrasında dosyayı add'leyip commit girişi yaptım. Merged "coins" çıkışı normal bir çıkış olmaktadır. Diyagramla göstermenin nedeni sonradan birleştirilmiş branchlarda karışıklığa engel olmak adına bir ön gelişim idi.
+
