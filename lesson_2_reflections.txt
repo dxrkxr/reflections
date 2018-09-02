@@ -20,3 +20,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 - İlk başta merge conflict aldım fakat bu conlict'i çözmek için git beni dosyayı düzenlemeye yönlendirdi ve istediğim kısımları bırakarak sonrasında dosyayı add'leyip commit girişi yaptım. Merged "coins" çıkışı normal bir çıkış olmaktadır. Diyagramla göstermenin nedeni sonradan birleştirilmiş branchlarda karışıklığa engel olmak adına bir ön gelişim idi.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Artıları dosyaları birleştirirken farklılıkları gösterme biçimi bunları çözmeyi vve isteğe göre birleştirme yapmayı oldukca basitleştiriyor. Eksileri ise aynı satırda aynı kod öbeklerindeki küçük değişiklikleri teker teker sorması ve buna göre elle düzenleme yapma gereği duymamız. 
+
