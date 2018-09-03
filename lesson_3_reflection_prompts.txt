@@ -28,7 +28,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    GitHub kullanarak dosya paylaşımı ve yapılan değişiklikler hakkında paylaşımlar trello gibi uygulamalardan bildirim halinde yapılabiliyordu. Fakat bunlarda dosyaları birleştirmek, uygulamların iç dosyalarındaki farklılıkları bulmak ve karşıdaki kişiye ulaşamasanız dahi ne yaptıgı hakkında bilgi edinmek zordu. GitHub ile bu karsılastırmaları ve yönetimleri rahatca gerçekleştirebiliyor olduk.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
