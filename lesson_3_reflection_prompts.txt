@@ -12,7 +12,13 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    -Fork, bit github hesabındaki pastadan kendi tabagına bir dilim alır.Kendi tabagında bu dilim ile senin repositoryinde degisiklikler yapıp paylasabilirsin. Ama pasta tabagına(forklanan yere) izin almadan dokunamazsın.
+    -Clone, kendi GitHub repository dizinindeki repositerylerden url adresini yazarak local'e klonlamaya yarar.
+    -Branches, local repository'de farklı özellikler,değişiklikler,versiyonlar veya çalışmalar için çalışma masası koyar. her çalışma masasında farklı şeyler çalışılır ve bunlar içerisinde geçiş yapılır. 
+    
+    Aralarındaki asıl fark platform ve mekan olmaktadır. Fork github üzerinde kendi github hesabımıza, orada clone ile local'e alınabiliyor. Sonrasında ise branch ile local repository'de çalışırken farklı çalışma alanları için farklı çalışma masaları oluşturulabiliyor. 
+
+    Sonrasında ise merge'lenerek programın sizin açınızdan geliştirildiği yele geliyor. daha sonra kendi github hesabınızdaki repository'e pushlayarak insanlarla bu feature'ı paylaşabiliyorsun.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
