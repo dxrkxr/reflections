@@ -33,4 +33,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Direkt olarak master üzerinde değişiklik yapmaypı farklı branclar üzerinde değişik yapmayı tercih sebebi. Yapılan bu değişikliklerin hala son bir hal almamış olabilecğinden dolayıdır. 
+    Bu nedenle tamamlanmamış veya kontrol edilmemiş bir değişikliği direkt olarak ana yani master branch'e uygulamak mantıklı olmayacaktır.
+    Bunun dışında kontrol edilmiş ve bir pull'un bu konuda yararlı olacağı veya gerekli olacağı durumlarda direkt olarak master branch'e değişiklik yansıtmak ise işi hızlandıracak veya basitleştirecektir.
